@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Psicólogos - Help Indica</title>
+    
+    <link rel="icon" type="image/png" href="imegens/Logo.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cards.css">
+    
+    <script defer src="js/modal.js"></script>
+    <script defer src="js/toggleCard.js"></script>
+</head>
+<body>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <img src="imegens/Logo.png" alt="Logo Help Indica" class="modal-logo">
+            <h2>Você é Psicólogo?</h2>
+            <p>Para acessar esta página, confirme se você é um profissional da área.</p>
+            <div class="modal-buttons">
+                <button id="yesBtn">Sim, sou Psicólogo</button>
+                <button id="noBtn">Não, não sou Psicólogo</button>
+            </div>
+        </div>
+    </div>    
+
+    <div class="logo-container">
+        <img src="imegens/Logo.png" alt="Help Indica Logo">
+    </div>
+    
+    <div id="portfolio" class="hidden">
+        <section class="profissionais" id="profissionais">
+            <h2 class="main-title">Nossos Especialistas</h2>
+            <div class="cards">
+                
+                <div class="card male-card" onclick="toggleCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="imegens/especialistas/Bruno-Costa.png" alt="Bruno Costa">
+                            <h3>Brunno Costa</h3>
+                            <hr>
+                            <div class="specialty-list">
+                                <div>TEA / ABA</div>
+                                <div>Psicanálise</div>
+                                <div>Neuropsicologia</div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Brunno Costa</h3>
+                            <span>Psicólogo Clinico</span>
+                            <p>CRP: 07/42923</p>
+                            <p class="location">Porto Alegre, RS</p>
+                            <p>Atendimento Online / presencial</p>
+                            <div class="buttons">
+                                <a class="whatsapp-btn" href="https://wa.me/5551986875187" target="_blank">WhatsApp</a>
+                                <a class="portfolio-btn" href="#" target="_blank">Portfólio</a>
+                                <a class="instagram-btn" href="https://instagram.com/brunocfeijo" target="_blank">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card female-card" onclick="toggleCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="imegens/especialistas/Osma.jpeg" alt="Osmaíra Hofstätter">
+                            <h3>Osmaíra Hofstätter</h3>
+                            <hr>
+                            <div class="specialty-list">
+                                <div>Psicanálise</div>
+                                <div>Situação de Luto</div>
+                                <div>Fibromialgia</div>
+                                <div>Borderline</div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Osmaíra Hofstätter</h3>
+                            <span>Psicólogo Clinico</span>
+                            <p>CRP: 07/42597</p>
+                            <p class="location">Porto Alegre, RS</p>
+                            <p>Online, Presencial e Híbrido</p>
+                            <div class="buttons">
+                                <a class="whatsapp-btn" href="https://wa.me/555182840984" target="_blank">WhatsApp</a>
+                                <a class="portfolio-btn" href="#" target="_blank">Portfólio</a>
+                                <a class="instagram-btn" href="https://www.instagram.com/osmairapsi" target="_blank">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card female-card" onclick="toggleCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="imegens/especialistas/natasha H..jpg" alt="Natasha Haczkiewicz">
+                            <h3>Natasha Haczkiewicz</h3>
+                            <hr>
+                            <div class="specialty-list">
+                                <div>TCC</div>
+                                <div>Atendimento com Adultos</div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Natasha Haczkiewicz</h3>
+                            <span>Psicólogo Clinico</span>
+                            <p>CRP: 07/41891</p>
+                            <p class="location">Porto Alegre, RS</p>
+                            <p>Atendimento Online</p>
+                            <div class="buttons">
+                                <a class="whatsapp-btn" href="https://wa.me/5551985810888" target="_blank">WhatsApp</a>
+                                <a class="portfolio-btn" href="https://psicologanatasha.com.br/" target="_blank">Portfólio</a>
+                                <a class="instagram-btn" href="https://www.instagram.com/natashapsicoterapia/#" target="_blank">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card male-card" onclick="toggleCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="imegens/especialistas/Fabiano-S..png" alt="Fabiano Scheffel">
+                            <h3>Fabiano Scheffel</h3>
+                            <hr>
+                            <div class="specialty-list">
+                                <div>Acompanhante Terapêutico</div>
+                                <div>Psicanálise</div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Fabiano Scheffel</h3>
+                            <span>Psicólogo Clinico</span>
+                            <p>CRP: 07/42582</p>
+                            <p class="location">Porto Alegre, RS</p>
+                            <p>Atendimento Online</p>
+                            <div class="buttons">
+                                <a class="whatsapp-btn" href="https://wa.me/555194013697" target="_blank">WhatsApp</a>
+                                <a class="portfolio-btn" href="https://linktr.ee/psi.fabianoscheffel" target="_blank">Portfólio</a>
+                                <a class="instagram-btn" href="https://www.instagram.com/psifabianoscheffel/#" target="_blank">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card female-card" onclick="toggleCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="imegens/especialistas/Marcia-Sandrini.png" alt="Marcia Sandrini">
+                            <h3>Marcia Sandrini</h3>
+                            <hr>
+                            <div class="specialty-list">
+                                <div>TCC</div>
+                                <div>Presencial com Crianças</div>
+                                <div>Atendimento com Idosos</div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Marcia Sandrini</h3>
+                            <span>Psicólogo Clinico</span>
+                            <p>CRP: 07/00000</p>
+                            <p class="location">Porto Alegre, RS</p>
+                            <p>Atendimento Online e Presencial</p>
+                            <div class="buttons">
+                                <a class="whatsapp-btn" href="https://wa.me/555184182809" target="_blank">WhatsApp</a>
+                                <a class="portfolio-btn" href="#" target="_blank">Portfólio</a>
+                                <a class="instagram-btn" href="https://www.instagram.com/marcia.sandrini/#" target="_blank">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card female-card" onclick="toggleCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="imegens/especialistas/Marindia.jpg" alt="Maríndia Soares">
+                            <h3>Maríndia Soares</h3>
+                            <hr>
+                            <div class="specialty-list">
+                                <div>Pós em Logoterapia</div>
+                                <div>Atendimento todas Idades</div>
+                                <div>Desenvolvimento Humano</div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Maríndia Soares</h3>
+                            <span>Psicólogo Clinico</span>
+                            <p>CRP: 07/00000</p>
+                            <p class="location">Porto Alegre, RS</p>
+                            <p>Atendimento Online</p>
+                            <div class="buttons">
+                                <a class="whatsapp-btn" href="https://wa.me/555181932796" target="_blank">WhatsApp</a>
+                                <a class="portfolio-btn" href="#" target="_blank">Portfólio</a>
+                                <a class="instagram-btn" href="#" target="_blank">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="card female-card" onclick="toggleCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="imegens/especialistas/Daniela P..jpg" alt="Daniela Polvani">
+                            <h3>Daniela Polvani</h3>
+                            <hr>
+                            <div class="specialty-list">
+                                <div>Psicanálise</div>
+                                <div>Pós - Neuropsicologia</div>
+                                <div>Atendimento todas Idades</div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Daniela Polvani</h3>
+                            <span>Psicólogo Clinico</span>
+                            <p>CRP: 07/42716</p>
+                            <p class="location">Porto Alegre, RS</p>
+                            <p>Atendimento Online</p>
+                            <div class="buttons">
+                                <a class="whatsapp-btn" href="https://wa.me/5551981211829" target="_blank">WhatsApp</a>
+                                <a class="portfolio-btn" href="#" target="_blank">Portfólio</a>
+                                <a class="instagram-btn" href="https://www.instagram.com/danielapolvanipsi" target="_blank">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NOVO CARD: Claciane Menegat -->
+                <div class="card female-card" onclick="toggleCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="imegens/especialistas/Claciane.png" alt="Claciane Menegat">
+                            <h3>Claciane Menegat</h3>
+                            <hr>
+                            <div class="specialty-list">
+                                <div>Terapia Cognitivo Comportamental</div>
+                                <div>Adolescentes e Adultos</div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Claciane Menegat</h3>
+                            <span>Psicóloga Clínica</span>
+                            <p>CRP: 07/42856</p>
+                            <!-- Mantido o padrão de exibir a localização, ajuste caso necessário -->
+                            <p class="location">Porto Alegre, RS</p>
+                            <p>Atendimento Online</p>
+                            <div class="buttons">
+                                <a class="whatsapp-btn" href="https://wa.me/5551985454141" target="_blank">WhatsApp</a>
+                                <a class="portfolio-btn" href="#" target="_blank">Portfólio</a>
+                                <a class="instagram-btn" href="https://www.instagram.com/psi.clacianemenegat" target="_blank">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIM DO NOVO CARD -->
+
+            </div>
+        </section>
+    </div>
+
+    <div class="floating-icons">
+        <span class="icon">🧠</span>
+        <span class="icon">🌻</span>
+        <span class="icon">📖</span>
+        <span class="icon">🔍</span>
+        <span class="icon">📝</span>
+    </div>
+</body>
+</html>
